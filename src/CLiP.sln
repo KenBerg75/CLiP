@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FBA04A7D-8279-46FB-AB79-D7DC4BD50BAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLiP.Tests", "Tests\CLiP.Tests\CLiP.Tests.csproj", "{6ACCEF5F-AD5A-420C-9C4E-BAE4A9E2234D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLiP.Core", "CLiP.Core\CLiP.Core.csproj", "{CCC65351-D69D-4E35-81B2-F2EB6A1C214E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ACCEF5F-AD5A-420C-9C4E-BAE4A9E2234D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACCEF5F-AD5A-420C-9C4E-BAE4A9E2234D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACCEF5F-AD5A-420C-9C4E-BAE4A9E2234D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACCEF5F-AD5A-420C-9C4E-BAE4A9E2234D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC65351-D69D-4E35-81B2-F2EB6A1C214E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC65351-D69D-4E35-81B2-F2EB6A1C214E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC65351-D69D-4E35-81B2-F2EB6A1C214E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC65351-D69D-4E35-81B2-F2EB6A1C214E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6ACCEF5F-AD5A-420C-9C4E-BAE4A9E2234D} = {FBA04A7D-8279-46FB-AB79-D7DC4BD50BAD}
+	EndGlobalSection
+EndGlobal
